@@ -1,2 +1,2 @@
-# food-ordering-app
-Online Food Ordering App using react
+# Food-Ordering-App
+A Swiggy-like video streaming app using React, Redux & Tailwind CSS.
