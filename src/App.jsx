@@ -1,13 +1,18 @@
-import { useState } from "react"
+import style from "./style"
+import { Outlet } from "react-router"
+import { Header } from "./components"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>Hello World</h1>
-      <p>...</p>
-    </>
+    <div className="w-full font-figtree ">
+      <div className={`${style.flexStart} shadow-md fixed w-full`}>
+        <div className={`${style.boxWidth}`}>
+          <Header />
+        </div>
+      </div>
+
+      <Outlet />
+    </div>
   )
 }
 
