@@ -16,6 +16,6 @@ In this project I have used Swiggy live API to fetch all the data through CORS.
 
 ## Screenshots
 
-<img src="./assets/screenshots/sc1.png" alt="web_version" width="600px" />
+<img src="./src/assets/screenshots/sc1.png" alt="web_version" width="600px" />
 <br/>
-<img src="./assets/screenshots/sc2.png" alt="mobile_version" width="300px" />
+<img src="./src/assets/screenshots/sc2.png" alt="mobile_version" width="300px" />
