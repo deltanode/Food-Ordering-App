@@ -1,15 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{jsx,js}"],
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
-        primary: "#282c3f",
-        secondary: "#686b78",
-        secondary2: "#535665"
+        primary: "#fefefe",
+        secondary: "#adbf4e"
       },
       fontFamily: {
-        figtree: ["Figtree", "sans-serif"]
+        poppins: ["Poppins", "sans-serif"]
       }
     },
     screens: {
@@ -21,5 +20,5 @@ export default {
       "2xl": "1536px"
     }
   },
-  plugins: []
+  plugins: [require("tailwind-scrollbar-hide")]
 }
